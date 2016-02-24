@@ -14,8 +14,6 @@ body {
 
 a {
   text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 em {
@@ -113,6 +111,8 @@ Main Components
   z-index: 2;
   text-align: center;
   font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
   padding-bottom: 15px;
   color: #5a5858;
   /* fix bug on Safari - text flickering while timeline translates */
@@ -318,6 +318,11 @@ Main Components
 
 .content-link:hover {
 	text-decoration: underline;
+}
+
+#kris {
+	font-size: 0.8rem;
+	color: #000000;
 }
 
 @-webkit-keyframes cd-enter-right {
